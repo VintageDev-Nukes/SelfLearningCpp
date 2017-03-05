@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1379779564 source:c:\users\alvaro\documents\aprendiendo c++\pruebas para game\main.cpp
+	<iostream>
+	<time.h>
+

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="caca" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/caca" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="x64481posixsehrev1" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-DSFML_STATIC" />
+					<Add directory="$(#sfml64.include)" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lsfml-graphics-s" />
+					<Add option="-lsfml-window-s" />
+					<Add option="-lsfml-audio-s" />
+					<Add option="-lsfml-network-s" />
+					<Add option="-lsfml-system-s" />
+					<Add option="-static-libgcc" />
+					<Add option="-static-libstdc++" />
+					<Add option="-static" />
+					<Add directory="$(#sfml64.lib)" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

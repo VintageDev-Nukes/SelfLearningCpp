@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1379702593 source:c:\users\alvaro\documents\aprendiendo c++\caca maestra\main.cpp
+	<time.h>
+	<iostream>
+	<fstream>
+	<fstream>
+	<iostream>
+	<iterator>
+	<string>
+	<sstream>
+	<vector>
+	<string>
+	<fstream>
+	<string>
+	<fstream>
+
